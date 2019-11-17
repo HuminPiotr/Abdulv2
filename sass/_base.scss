@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  height: 100vh;
+  background-color: #bbb;
+  overflow: hidden;
+}
+
+.buttons {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5px;
+  z-index: 2;
+}
+button {
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  margin: 10px 5px;
+}
+audio {
+  display: none;
+}

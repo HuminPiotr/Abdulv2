@@ -1,0 +1,119 @@
+.abdul {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 510px;
+  width: 400px;
+
+  overflow: hidden;
+
+  > img {
+    height: 464px;
+    width: 368px;
+  }
+  img {
+    position: absolute;
+    // height: 464px;
+    // width: 368px;
+    bottom: 0;
+    left: 0;
+  }
+
+  .tapczan {
+    width: 150%;
+    height: 100%;
+    position: absolute;
+    left: -159px;
+    top: 267px;
+  }
+}
+
+.fryz {
+  img {
+    top: 11%;
+    left: 28%;
+  }
+  .fryz1 {
+    // display: none;
+    height: 179px;
+    width: 151px;
+  }
+  .fryz2 {
+    top: 64px;
+    left: 109px;
+    height: 150px;
+    width: 159px;
+    // display: none;
+  }
+  .fryz3 {
+    height: 172px;
+    top: 31px;
+    left: 73px;
+    object-fit: cover;
+    // display: none;
+  }
+  .fryz4 {
+    width: 152px;
+    top: 54px;
+    left: 105px;
+    object-fit: cover;
+    // display: none;
+  }
+  .fryz5 {
+    height: 226px;
+    top: 24px;
+    left: 95px;
+    object-fit: cover;
+    // display: none;
+  }
+  .fryz6 {
+    height: 179px;
+    top: 49px;
+    left: 83px;
+    object-fit: cover;
+    // display: none;
+  }
+  .fryz7 {
+    height: 231px;
+    top: 53px;
+    left: 90px;
+    object-fit: cover;
+    // display: none;
+  }
+
+  .fryz8 {
+    height: 138px;
+    top: 62px;
+    left: 118px;
+    object-fit: cover;
+    // display: none;
+  }
+  .fryz9 {
+    width: 224px;
+    top: 59px;
+    left: 97px;
+    object-fit: cover;
+    // display: none;
+  }
+  .fryz10 {
+    width: 180px;
+    top: -12px;
+    left: 96px;
+    object-fit: cover;
+    // display: none;
+  }
+  .fryz11 {
+    width: 181px;
+    top: 50px;
+    left: 87px;
+    object-fit: cover;
+    // display: none;
+  }
+  .fryz12 {
+    width: 129px;
+    top: 59px;
+    left: 126px;
+    object-fit: cover;
+    // display: none;
+  }
+}

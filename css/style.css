@@ -1,0 +1,356 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  background-color: #bbb;
+  overflow: hidden;
+}
+
+.buttons {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  z-index: 2;
+}
+
+button {
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  margin: 15px 5px;
+}
+
+audio {
+  display: none;
+}
+
+.abdul {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 510px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.abdul > img {
+  height: 464px;
+  width: 368px;
+}
+
+.abdul img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.abdul .tapczan {
+  width: 150%;
+  height: 100%;
+  position: absolute;
+  left: -159px;
+  top: 267px;
+}
+
+.fryz img {
+  top: 11%;
+  left: 28%;
+}
+
+.fryz .fryz1 {
+  height: 179px;
+  width: 151px;
+}
+
+.fryz .fryz2 {
+  top: 64px;
+  left: 109px;
+  height: 150px;
+  width: 159px;
+}
+
+.fryz .fryz3 {
+  height: 172px;
+  top: 31px;
+  left: 73px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fryz .fryz4 {
+  width: 152px;
+  top: 54px;
+  left: 105px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fryz .fryz5 {
+  height: 226px;
+  top: 24px;
+  left: 95px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fryz .fryz6 {
+  height: 179px;
+  top: 49px;
+  left: 83px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fryz .fryz7 {
+  height: 231px;
+  top: 53px;
+  left: 90px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fryz .fryz8 {
+  height: 138px;
+  top: 62px;
+  left: 118px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fryz .fryz9 {
+  width: 224px;
+  top: 59px;
+  left: 97px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fryz .fryz10 {
+  width: 180px;
+  top: -12px;
+  left: 96px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fryz .fryz11 {
+  width: 181px;
+  top: 50px;
+  left: 87px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fryz .fryz12 {
+  width: 129px;
+  top: 59px;
+  left: 126px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.face img {
+  top: 27%;
+  left: 22%;
+}
+
+.face .face1 {
+  top: 32%;
+  left: 29%;
+  width: 108px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.face .face2 {
+  top: 41%;
+  left: 30%;
+  width: 71px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.face .face3 {
+  top: 43%;
+  left: 33%;
+  width: 54px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.face .face4 {
+  top: 36%;
+  left: 32%;
+  width: 93px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.face .face5 {
+  top: 36%;
+  left: 35%;
+  width: 83px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.face .face6 {
+  top: 35%;
+  left: 30%;
+  width: 110px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.face .face7 {
+  top: 22%;
+  left: 31%;
+  width: 115px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.face .face8 {
+  top: 30%;
+  left: 29%;
+  width: 107px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */
